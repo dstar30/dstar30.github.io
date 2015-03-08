@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="Content-type" content="text/html; charset-utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  <title>Daniel Jiang</title>
   <!-- CSS-->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
@@ -20,10 +20,12 @@
 <body>
   <nav>
     <div id="header">
+      <div id="name">
+        <p><a href="#">Daniel Jiang</a></p>
+      </div>
       <div id="navbar">
-        <p id="name"><a href="#">Daniel Jiang</a></p>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li style="border:none"><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
@@ -33,45 +35,47 @@
     </div>
   </nav>
 
-  <div class="jumbotron">
-    <div class="container">
-      <h1>Home Page of Daniel Jiang</h1>
+<div class="clear"></div>
+<!-- ================== Main Body ==================== -->
+  <div class="jumbotron whiteBack" id="summary">
+    <div class="left">
+      <img src="osu1.jpg">
     </div>
+    <div class="right">
+      <h1>Summary</h1><br>
+      <p>My name is Daniel. I am a computer science student at The Ohio State University.</p>
+    </div>
+      
+      
   </div> 
 
   <!-- About -->
-  <section>
-  <h1 id="about">About Me</h1>
-  </section>
+  <div class="jumbotron" id="about">
+    <h1>About</h1>
+  </div>
 
 
 
   <!-- Education -->
-  <section>
+  <div class="jumbotron whiteBack" id="education">
     <h1>Education</h1>
-  </section>
+  </div>
 
 
 
   <!-- Experience -->
-  <section>
+  <div class="jumbotron" id="experience">
     <h1>Experience</h1>
-  </section>
-
+  </div>
 
 
   <!-- Contact -->
-  <section>
+  <div class="jumbotron whiteBack" id="contact">
     <h1>Contact Me</h1>
-  </section>
-
+  </div>
 
 
   <!-- footers -->
-  <footer class="container" id="info">
-    
-  </footer>
-
   <footer id="copyright">
     <p>Copyright &copy Daniel Jiang 2015</p>
   </footer>
