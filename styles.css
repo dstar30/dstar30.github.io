@@ -4,7 +4,72 @@
   src: url(black_jack.ttf) format("truetype");
 }
 
+.navbar-header #name {
+  font-family: "BlackJack", sans-serif;
+  font-size: 35px;
+  text-decoration: none;
+  position: relative;
+  float: left;
+}
+
+.collapse .nav {
+  position: relative;
+  float: right;
+}
+
+#topContainer {
+  background-image: url("background-2.jpg");
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+}
+
+.jumbotron {
+  height: 1200px;
+  text-align: center;
+}
+
+.footer {
+  height: 65px;
+  text-align: center;
+  background-color: #292929;
+}
+
+.footer #copyright {
+  color: #23527C;
+  position: relative;
+  top: 25px;
+  font-weight: bold;
+}
+
+.background-white {
+  background-color: white;
+}
+
+#profile .container #hhh{
+  margin: auto;
+  width   : 200px;
+  height  : 50px;   
+  position: relative;
+  z-index : 1;
+}
+
+#profile .container #hhh:before{
+  content : "";
+  position: absolute;
+  left    : 0;
+  bottom  : 0;
+  height  : 1px;
+  width   : 250%;  
+  border-bottom:1px solid grey;
+}
+
+#profile {
+  height: auto;
+}
+
 /* ================ Header Part ================*/
+/*
 #name { 
   position: relative;
   float: left;
@@ -23,7 +88,7 @@
   display: inline;
 }
 
-/* fixed header on the top */
+/* fixed header on the top 
 #header {
   width: 100%;
   height: 65px;
@@ -56,7 +121,7 @@
   clear: both;
 }
 
-/* ===================Main Body================*/
+/* ===================Main Body================
 
 .jumbotron {
   height: 500px;
@@ -83,18 +148,16 @@
 .jumbotron .right {
   position: relative;
   width: 50%;
-  float: left;
+  float: right;
 }
 
-.whiteBack {
-  background-color: white;
-}
+
 
 #contact {
   height: 150px;
 }
 
-/* =============================================*/
+/* =============================================
 #footer {
   width: 100%;
   height: 135px;
@@ -115,3 +178,5 @@
   top: 10px;
   color: #A1C9C7;
 }
+
+*/
