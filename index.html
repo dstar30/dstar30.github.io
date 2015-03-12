@@ -20,9 +20,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
   <link rel="stylesheet" href="styles.css">
-  <script type="text/javascript" href="script.js"></script>
-
-
+  <script type="text/javascript"></script>
 
 </head>
   <!-- ============================================= -->
@@ -39,9 +37,9 @@
         <span class="icon-bar"></span>
         </button>
       </div>
-      <div class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse float-right">
         <ul class="nav navbar-nav">
-          <li ><a href="#">Home</a></li>
+          <li class="active"><a href="#">Home</a></li>
           <li><a href="#profile">Profile</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -60,14 +58,20 @@
   <!-- About me-->
   <div class="jumbotron background-white" id="profile">
     <div class="container">
-      <div id="hhh"><h1>Profile</h1><br/><br/></div>
-      
-      <div class="row">
-
+      <div class="row toprow">
         <div class="col-md-6 col-md-offset-3">
+          <h1>Profile</h1><br/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2">
           <br/>
           <h3 style="font-weight: bold">About me</h3>
-          <p>My name is Daniel, an undergraduate student at The Ohio State University. I am a web developer with good knowledge of front-end techniques, as well as expereicne with back-end technologies. </p>
+          <p>My name is Daniel, an undergraduate student at The Ohio State University. I am a passionate web developer with good knowledge of front-end techniques, as well as experience with back-end technologies. I am also interested in Android Development and have built some small projects. I like working in a team because tasks are often accomplished faster by a team rather than an individual, and team member can learn from each other.</p>
+        </div>
+        <!-- profile pic -->
+        <div class="col-md-4" id="profile-pic">
+          <img src="images/profilepic.jpg">
         </div>
 
       </div>
@@ -75,17 +79,113 @@
   </div>
 
   <!-- Experience -->
-  <div class="jumbotron whiteBack" id="experience">
+  <div class="jumbotron" id="experience">
     <div class="container">
-      <h1>Experience</h1>
-    </div>
+      <div class="row toprow">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <h1>Experiences</h1>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+      <!-- Education -->
+          <br/><p class="text-center subtitle">Educations</p><br/> 
+      <div class="row bottomline">
+        <div class="col-md-3 col-md-offset-1 text-left">
+          <h2>The Ohio State University</h2>
+          <p>Aug 2012  -  May 2016 (Expected)</p>
+        </div>       
+        <div class="col-md-6 col-md-offset-2 text-left">
+          <h3>
+            B.S - Computer Science
+          </h3>
+          <p>At OSU, I learn to work as a team player since team work and communication skills are critical in many real-world projects. I also learned Java, SQL, MVC, web-related technologies and more.</p>
+        </div>
+      </div>
+      <br/><p class="text-center subtitle">Relevant Experiences</p><br/> 
+      <!-- work experiences -->
+      <div class="row">
+        <div class="col-md-3 col-md-offset-1 text-left">
+          <h2>The Ohio State University</h2>
+          <p>Aug 2013  -  Present</p>
+        </div>       
+        <div class="col-md-6 col-md-offset-2 text-left">
+          <h3>
+            Help Desk Operator
+          </h3>
+          <p>I am currently part of the IT Support Team in the Student Academic Service (SAS) building at OSU where I help internal staff resolve problems related to applications, hardware, networking, and systems.</p>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-md-3 col-md-offset-1 text-left">
+          <h2>The Ohio State University</h2>
+          <p>Oct 2014  -  Dec 2014</p>
+        </div>       
+        <div class="col-md-6 col-md-offset-2 text-left">
+          <h3>
+            Math Tutor
+          </h3>
+          <p>In this short period of time, I assisted students in the Business Math class to understand different math concepts and their applications. I also encouraged tutees to think independently and helped build their confidence.</p>
+        </div>
+      </div>
+
+    </div>
   </div>
 
 
   <!-- Education -->
-  <div class="jumbotron" id="skills">
-    <h1>Skills</h1>
+  <div class="jumbotron background-white" id="skills">
+    <div class="container">
+      <div class="row toprow">
+        <div class="col-md-6 col-md-offset-3">
+          <h1>Skills</h1>
+        </div>
+      </div> 
+
+      <!-- ====Skills========================================= -->
+      <br/><p class="text-center subtitle">Skills</p><br/>
+      <div class="row bottomline">
+        <div class="col-md-8 col-md-offset-2 text-left">
+          <ul>
+            <li>Java</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>SQL</li>
+            <li>Ruby</li>
+            <li>Rails</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ====Tools========================================= -->
+      <br/><p class="text-center subtitle">Tools</p><br/>
+      <div class="row bottomline">
+        <div class="col-md-8 col-md-offset-2 text-left">
+          <ul>
+            <li>MS Office</li>
+            <li>Sublime Text</li>
+            <li>Git</li>
+            <li>Android Studio</li>
+            <li>Eclipse</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ====Languages========================================= -->
+      <br/><p class="text-center subtitle">Languages</p><br/>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-left">
+          <ul>
+            <li>English</li>
+            <li>Mandarin Chinese</li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
   </div>
 
 
@@ -94,7 +194,13 @@
 
   <!-- Contact -->
   <div class="jumbotron" id="contact">
-    <h1>Contact</h1>
+    <div class="container">
+      <div class="row toprow">
+        <div class="col-md-6 col-md-offset-3">
+          <h1>Contact</h1>
+        </div>
+      </div>
+    </div>
   </div>
 
 
@@ -106,8 +212,10 @@
     </div>
   </div>
   </div>
-  <script type="text/javascript" href="/javascript/script.js">
-   
+  <script type="text/javascript">
+    $("#topContainer").css("height", $(window).height());
+
+
   </script>
 </body>
 </html>

@@ -1,0 +1,179 @@
+/* custom font for name on the top right */
+@font-face {
+  font-family: "BlackJack";
+  src: url(black_jack.ttf) format("truetype");
+}
+
+.navbar-header #name {
+  font-family: "BlackJack", sans-serif;
+  font-size: 35px;
+  text-decoration: none;
+  position: relative;
+  float: left;
+}
+
+.collapse .nav {
+  position: relative;
+  float: right;
+}
+
+#topContainer {
+  background-image: url("images/background-2.jpg");
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron {
+  height: 1200px;
+}
+
+
+
+.footer #copyright {
+  color: #23527C;
+  position: relative;
+  top: 25px;
+  font-weight: bold;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.jumbotron .container h1 {
+  border-bottom: 1px solid #7DBFC9;
+  padding-bottom: 22px;
+  text-align: center;
+}
+
+#profile {
+  height: auto;
+}
+
+#profile #profile-pic {
+  background-image: url("profilepic.jpg");
+  background-size: 100% 100%;
+}
+
+/* ====================footer======================== */
+
+.footer {
+  height: 65px;
+  text-align: center;
+  background-color: #292929;
+}
+
+
+/* ================ Header Part ================*/
+/*
+#name { 
+  position: relative;
+  float: left;
+  left: 45px;
+  top: 12px;
+  font-family: "BlackJack", sans-serif;
+  font-size: 30px;
+  color: #03151C;
+}
+
+#name a {
+  text-decoration: none;
+}
+
+#navbar li {
+  display: inline;
+}
+
+/* fixed header on the top 
+#header {
+  width: 100%;
+  height: 65px;
+  text-transform: uppercase;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+}
+
+#navbar ul {
+  position: relative;
+  float: right;
+  top: 20px;
+  right: 25px;
+}
+
+#navbar ul li {
+  padding-left: 12px;
+  padding-right: 5px;
+  border-left: 1px solid grey;
+  font-size: 17px;
+  color: #03151C;
+}
+
+#header #navbar li a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+/* ===================Main Body================
+
+.jumbotron {
+  height: 500px;
+  position: relative;
+}
+
+.jumbotron h1, .jumbotron p {
+  text-align: center;
+  font-size: 36px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+}
+
+.jumbotron .left {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+
+.jumbotron .right {
+  position: relative;
+  width: 50%;
+  float: right;
+}
+
+
+
+#contact {
+  height: 150px;
+}
+
+/* =============================================
+#footer {
+  width: 100%;
+  height: 135px;
+  background-color: black;
+  color: grey;
+}
+
+#copyright {
+  background-color: #1A6073;
+  width: 100%;
+  height: 45px;
+}
+
+#copyright p {
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  top: 10px;
+  color: #A1C9C7;
+}
+
+*/
