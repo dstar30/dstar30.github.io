@@ -27,8 +27,8 @@
 
 /* ================================================ */
 
+
 #profile-pic img {
-  border-radius: 125px;
   position: relative;
   top: 35px;
   left: 50px;
@@ -40,16 +40,6 @@
 
 #experience .container .midrow p {
   font-size: 17px;
-}
-
-h3 {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 26px;
-  font-weight: bold;
 }
 
 
@@ -106,6 +96,28 @@ body {
 .text-left {
   text-align: left;
 }
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+
+li {
+  list-style-type: none;
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+
+#contact li a {
+  text-decoration: none;
+}
+
 
 
 /* ====================footer======================== */

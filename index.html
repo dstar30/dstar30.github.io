@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Daniel Jiang</title>
 
-
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <!-- jQuery UI -->
@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <script type="text/javascript"></script>
 
 </head>
@@ -56,7 +56,7 @@
   <div class="container" id="topContainer"></div>
 
   <!-- About me-->
-  <div class="jumbotron background-white" id="profile">
+  <div class="jumbotron" id="profile">
     <div class="container">
       <div class="row toprow">
         <div class="col-md-6 col-md-offset-3">
@@ -71,7 +71,7 @@
         </div>
         <!-- profile pic -->
         <div class="col-md-4" id="profile-pic">
-          <img src="images/profilepic.jpg">
+          <img src="images/profilepic.jpg" class="img-circle">
         </div>
 
       </div>
@@ -79,7 +79,7 @@
   </div>
 
   <!-- Experience -->
-  <div class="jumbotron" id="experience">
+  <div class="jumbotron background-white" id="experience">
     <div class="container">
       <div class="row toprow">
         <div class="col-md-6 col-md-offset-3 text-center">
@@ -134,7 +134,7 @@
 
 
   <!-- Education -->
-  <div class="jumbotron background-white" id="skills">
+  <div class="jumbotron" id="skills">
     <div class="container">
       <div class="row toprow">
         <div class="col-md-6 col-md-offset-3">
@@ -145,43 +145,66 @@
       <!-- ====Skills========================================= -->
       <br/><p class="text-center subtitle">Skills</p><br/>
       <div class="row bottomline">
-        <div class="col-md-8 col-md-offset-2 text-left">
+        <div class="col-md-3"></div>
+        <div class="col-md-4">
+          <ul>
+            <li>HTML<span class="glyphicon glyphicon-star" aria-hidden="true" style="padding-left:80px"></span></li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>JQuery</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
           <ul>
             <li>Java</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
             <li>SQL</li>
             <li>Ruby</li>
             <li>Rails</li>
+            <li>PHP</li>
           </ul>
         </div>
+        <div class="col-md-1"></div>
       </div>
 
       <!-- ====Tools========================================= -->
       <br/><p class="text-center subtitle">Tools</p><br/>
       <div class="row bottomline">
-        <div class="col-md-8 col-md-offset-2 text-left">
+        <div class="col-md-3"></div>
+        <div class="col-md-4">
           <ul>
             <li>MS Office</li>
             <li>Sublime Text</li>
             <li>Git</li>
-            <li>Android Studio</li>
-            <li>Eclipse</li>
           </ul>
         </div>
+
+        <div class="col-md-4">
+          <ul>
+            <li>Android Studio</li>
+            <li>Eclipse</li>
+            <li>Linux Command Line</li>
+          </ul>
+        </div>
+        <div class="col-md-1"></div>
       </div>
 
       <!-- ====Languages========================================= -->
       <br/><p class="text-center subtitle">Languages</p><br/>
       <div class="row">
-        <div class="col-md-8 col-md-offset-2 text-left">
+        <div class="col-md-3"></div>
+        <div class="col-md-4">
           <ul>
             <li>English</li>
-            <li>Mandarin Chinese</li>
           </ul>
         </div>
+
+        <div class="col-md-4">
+          <ul>
+            <li>Chinese</li>
+          </ul>
+        </div>
+        <div class="col-md-1"></div>
       </div>
 
 
@@ -193,12 +216,30 @@
 
 
   <!-- Contact -->
-  <div class="jumbotron" id="contact">
+  <div class="jumbotron background-white" id="contact" style="height: 380px;">
     <div class="container">
       <div class="row toprow">
         <div class="col-md-6 col-md-offset-3">
-          <h1>Contact</h1>
+          <h1>Contact </h1>
         </div>
+        <div class="col-md-3"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-4">
+          <ul>
+            <li style="padding-top: 30px;"><img src="images/social-18-linked-in.png"><a href="http://www.linkedin.com/in/dstar30" target="_blank">&nbsp&nbspLinkedIn</a></li>
+            <li><img src="images/social-32-twitter.png"><a href="http://twitter.com/dstars30" target="_blank">&nbsp&nbspTwitter</a></li>
+            <li><img src="images/social-40-e-mail.png"><a href="mailto:jiang.589@osu.edu">&nbsp&nbspEmail me: &nbsp jiang.589@osu.edu</a> </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+
+          </ul>
+        </div>
+        <div class="col-md-1"></div>
       </div>
     </div>
   </div>

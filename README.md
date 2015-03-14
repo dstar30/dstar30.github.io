@@ -1,7 +1,4 @@
 Personal-site
 =============
-Waiting to add more stuff
 
-
-
-A personal website for my own practice
+This is my personal website using HTML, CSS, and jQuery
