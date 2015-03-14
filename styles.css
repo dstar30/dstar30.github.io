@@ -1,4 +1,4 @@
-/* custom font */
+/* ============ custom font ============== */
 @font-face {
   font-family: "BlackJack";
   src: url(black_jack.ttf) format("truetype");
@@ -42,6 +42,9 @@
   font-size: 17px;
 }
 
+.navbar {
+  height: auto;
+}
 
 /* ====================common effect================ */
 
@@ -118,6 +121,9 @@ li {
   text-decoration: none;
 }
 
+.navbar .container ul li {
+  padding-bottom: 0px;
+}
 
 
 /* ====================footer======================== */
